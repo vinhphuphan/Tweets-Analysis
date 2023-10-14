@@ -50,13 +50,13 @@ The data reveals differences in the tweeting habits of Kevin Rudd and Scott Morr
 
 
 #### Top Words Analysis
-<p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/Top_20.png" width=640></p>
+<p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/Top_20.png" width=100%></p>
 <h4 align="center">Figure 2. Top 20 Words Most Strongly Associated with Each of the Two Users.</h4>
 
 The top 20 words most strongly associated with each of the two users, Kevin Rudd and Scott Morrison, provide insights into their distinct communication styles and the topics they frequently address.Tweets data was collected in 2021, so Kevin Rudd and Scott Morrison's words suggest a focus on covid-19 pandemic and public health. These word associations can help identify the key themes and interests of the two politicians based on their Twitter activity.
 
 #### Tweet Sentiment Analysis
-<p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/sentiment_analysis.png" width=640></p>
+<p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/sentiment_analysis.png" width=100%></p>
 <h4 align="center">Figure 3. The Proportions of Tweets Compound Sentiment for Two Users.</h4>
 
 Investigating the sentiment of tweets by Kevin Rudd and Scott Morrison reveals differences in sentiment proportions. While Scott Morrison's tweets tend to be more positive, Kevin Rudd's tweets have a higher negative sentiment.
