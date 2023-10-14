@@ -8,7 +8,7 @@
 ## Introduction
 Social media platforms, especially Twitter, have become a significant channel for politicians to communicate with the public and share their views on various issues. In the context of Australian politics, two prominent figures, Kevin Rudd and Scott Morrison, have leveraged Twitter to engage with the public, express their opinions, and influence political discourse.
 ### The Dataset
-The dataset that contains 200 tweets of Kevin Rudd and 200 tweets of Scott Morrison from Twitter API for developer.
+The dataset that contains 200 tweets of Kevin Rudd and 200 tweets of Scott Morrison in 2021 from Twitter API for developer.
 <pre class="line-numbers language-json">      <code class="t05__copy language-json"><span class="token punctuation">{</span>
   <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"Thu Apr 06 15:24:15 +0000 2017"</span><span class="token punctuation">,</span>
   <span class="token property">"id_str"</span><span class="token operator">:</span> <span class="token string">"850006245121695744"</span><span class="token punctuation">,</span>
@@ -40,32 +40,43 @@ The dataset that contains 200 tweets of Kevin Rudd and 200 tweets of Scott Morri
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
     </pre>
-
-
-#### 🛠 Technologies and Tools 🛠
-[![My Skills](https://skillicons.dev/icons?i=py,numpy)](https://skillicons.dev)
 ## Result
-**Posting Times**
+#### Posting Times
 <p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/posting_time.png" width=640></p>
-<h4 align="center">Figure 1. The Trend of Road Accident Deaths over decade</h4>
+<h4 align="center">Figure 1. Tweet Activity by Hour of the Day</h4>
 The data reveals differences in the tweeting habits of Kevin Rudd and Scott Morrison throughout the day. Notably, Kevin Rudd is more active in the morning, with a peak around 6 AM, while Scott Morrison's activity is more evenly distributed, with a prominent peak around 9 AM and another in the afternoon. From 12PM - 15PM, both of them are usually quite on Twitter. These variations in posting times can be attributed to their individual routines and communication styles.
 
-### Top Words Analysis
 
-We calculated log odds ratios for words used in the tweets to identify the 20 words most strongly associated with each politician. This analysis helps reveal the unique language patterns of Kevin Rudd and Scott Morrison.
+#### Top Words Analysis
+<p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/Top_20.png" width=640></p>
+<h4 align="center">Figure 2. Top 20 Words Most Strongly Associated with Each of the Two Users.</h4>
 
-### Tweet Sentiment Analysis
+The top 20 words most strongly associated with each of the two users, Kevin Rudd and Scott Morrison, provide insights into their distinct communication styles and the topics they frequently address.Tweets data was collected in 2021, so Kevin Rudd and Scott Morrison's words suggest a focus on covid-19 pandemic and public health. These word associations can help identify the key themes and interests of the two politicians based on their Twitter activity.
 
-We employed the VADER sentiment analysis tool to assess the sentiment of each tweet, resulting in the categorization of tweets as positive, negative, or neutral.
+#### Tweet Sentiment Analysis
+<p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/sentiment_analysis.png" width=640></p>
+<h4 align="center">Figure 3. The Proportions of Tweets Compound Sentiment for Two Users.</h4>
 
-## Data Visualization
-
-The project includes various data visualizations using Python libraries such as Matplotlib and Seaborn. The visualizations help us better understand the data and present our findings in an accessible manner.
-
-## Usage
-
-You can access the Jupyter Notebook containing the code for this analysis in the 'analysis.ipynb' file.
+Investigating the sentiment of tweets by Kevin Rudd and Scott Morrison reveals differences in sentiment proportions. While Scott Morrison's tweets tend to be more positive, Kevin Rudd's tweets have a higher negative sentiment.
 
 ## Conclusion
 
 Our analysis provides valuable insights into the Twitter activities of Kevin Rudd and Scott Morrison, shedding light on their tweeting behavior, sentiments, and language patterns. We hope this analysis contributes to a better understanding of the digital presence of these Australian politicians.
+
+## Related Projects:question: 👨‍💻 🛰️
+
+<code>[Olympic-Weightlifting-Data-Analysis](https://github.com/vinhphuphan/Olympic-Weightlifting-Data-Analysis)</code> 📊
+
+<code>[Titanic - Machine Learning from Disaster using Python](https://github.com/vinhphuphan/Titanic-Machine-Learning-from-Disaster)</code> 📊
+
+<code>[Text Classification With Movie Reviews](https://github.com/vinhphuphan/Text-Classification-With-Movie-Reviews/)</code> 📊
+
+<code>[Living Species Image Classification using Python](https://github.com/vinhphuphan/Living-Species-Image-Classification)</code> 📊
+
+<code>[Name Entity Recognition](https://github.com/vinhphuphan/Name-Entity-Recognition)</code> 📊
+
+<code>[Hospital-Landing-Page](https://github.com/vinhphuphan/Hospital-Landing-Page/)</code> 📊
+
+<code>[LaslesVPN Landing Page](https://github.com/vinhphuphan/Lasles-VPN-Landing-Page)</code> 📊
+
+**Have fun building!** 🚀
