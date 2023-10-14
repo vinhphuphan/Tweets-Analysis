@@ -40,7 +40,9 @@ The dataset that contains 200 tweets of Kevin Rudd and 200 tweets of Scott Morri
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code>
     </pre>
+----------------------------------------------
 ## Result
+
 #### Posting Times
 <p align="center"><img style="align: center;" src="https://raw.githubusercontent.com/vinhphuphan/Tweets-Analysis/main/images/posting_time.png" width=640></p>
 <h4 align="center">Figure 1. Tweet Activity by Hour of the Day</h4>
